@@ -1,180 +1,155 @@
 # Web Traffic Analysis Dashboard
 
 ## Project Overview
-The [Sales Performance Dashboard](https://public.tableau.com/app/profile/fang.wen.hsiao/viz/SupersotreSales_17111190533460/SuperstoreSalesPerformance) aims to provide actionable insights into the company's sales performance, focusing on key metrics such as Total Profit, Total Sales, Total Quantity, Profit by Subcategory, Sales by Segment, Order Distribution by Shipping Mode, and Order Distribution by Category. By leveraging these metrics, we aim to enhance our understanding of sales trends, identify areas of improvement, and drive strategic decision-making to optimize revenue and profitability.
-![Superstore Sales Performance](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/824c6010-480a-4933-8a10-2e67e523c235)
+The [Web Traffic Analysis Dashboard](https://public.tableau.com/app/profile/fang.wen.hsiao/viz/WebTrafficAnalysisDashboard_17110340828410/Webtrafficanalysis) serves as a comprehensive analytics tool, providing intricate insights into website performance and user behavior. Through meticulous tracking of various metrics, stakeholders gain a nuanced understanding of audience interactions, content effectiveness, and marketing campaign impact. This detailed overview equips decision-makers with actionable data to refine strategies, optimize user experiences, and drive business growth.
+
+![Web traffic analysis](https://github.com/fangoaish/Tableau__Web_Traffic_Analysis_Dashboard/assets/51399519/30f354ba-c8ad-4d99-be04-870152cae49c)
 
 
 ## Dashboard Metrics
-1. **Total Profit with % Difference from Previous Year**
+1. **Total Sessions**
 - What do I want to know:
-  - I want to understand the overall profitability of our sales operations.
+  - The precise count of all website visits during a specified period.
 - Why do I want to know:
-  - To check the financial health of our business and track changes in profitability over time.
+  - To calculate the overall traffic volume and potential audience reach.
 - So what?
-  - Analyze factors contributing to changes in profit.
-  - Identify areas for cost reduction or revenue enhancement.
+  - Identify trends to capitalize on peak traffic periods.
+  - Investigate deviations for targeted optimization efforts.
+  - Align marketing strategies to leverage high-traffic intervals effectively.
 
-2. **Total Sales with % Difference from Previous Year**
+2. **Total Bounce**
 - What do I want to know:
-  - I want to assess the overall sales performance.
+  - The total number of single-page sessions where users exit without further interaction.
 - Why do I want to know:
-  - To track revenue growth or decline and evaluate the effectiveness of sales strategies.
+  - To assess the effectiveness of landing pages and content relevance.
 - So what?
-  - Investigate reasons behind fluctuations in sales.
-  - Develop strategies to boost sales in underperforming areas.
+  - Identify pages with high bounce rates for content optimization.
+  - Enhance website navigation to encourage deeper engagement.
+  - Test different call-to-action approaches to reduce bounce rates.
  
-3. **Total Quantity with % Difference from Previous Year**
+3. **Bounce Rate**
 - What do I want to know:
-  - I want to understand the volume of products sold.
+  - The percentage of single-page sessions where users exit without further interaction.
 - Why do I want to know:
-  - To evaluate demand trends and inventory management efficiency.
+  - To evaluate the effectiveness of landing pages and content relevance.
 - So what? 
-  - Adjust inventory levels based on demand fluctuations.
-  - Explore opportunities for bundling or cross-selling products.
+  - Identify high-bounce-rate pages for content optimization.
+  - Improve website navigation to encourage deeper engagement.
+  - Test different call-to-action approaches to reduce bounce rates.
 
-4. **Profit by Subcategory**
+4. **AVG Time On Page**
 - What do I want to know:
-  - I want to analyze profitability across different product categories.
+  - The average duration users spend on individual pages.
 - Why do I want to know:
-  - To identify high-performing product categories and prioritize resource allocation.
+  - To assess user engagement levels and content resonance.
 - So what?
-  - Allocate marketing resources to high-profit subcategories.
-  - Consider expanding product lines in profitable categories.
+  - Enhance content quality on pages with low average time spent.
+  - Incorporate multimedia elements or interactive features for increased engagement.
+  - Optimize page loading speed to improve retention and reduce bounce rates.
 
-5. **Sales by Segment**
+5. **MoM Sessions Overview**
 - What do I want to know:
-  - I want to understand sales performance across different customer segments.
+  - Monthly comparison of total sessions to track growth or decline.
 - Why do I want to know:
-  - To tailor marketing strategies and services to specific customer segments.
+  - To discern the impact of marketing campaigns and seasonal trends on website traffic.
 - So what?
-  - Customize marketing campaigns to target specific segments.
-  - Enhance customer experience based on segment preferences.
+  - Identify successful marketing initiatives for replication.
+  - Adapt campaign strategies based on seasonal fluctuations.
+  - Allocate resources effectively to capitalize on growth opportunities.
 
-6. **Order Distribution by Shipping Mode**
+6. **Total Sessions by Devices**
 - What do I want to know:
-  - I want to analyze the distribution of orders by shipping method.
+  - Distribution of website sessions across various devices (desktop, mobile, tablet).
 - Why do I want to know:
-  - To optimize shipping logistics and improve delivery efficiency.
+  - To inform responsive design optimization and device-specific content strategies.
 - So what?
-  - Evaluate shipping costs and delivery times for each method.
-  - Optimize shipping routes and carrier partnerships.
+  - Prioritize desktop optimization to cater to the growing mobile user base.
+  - Customize content formats and layouts based on device preferences.
+  - Ensure seamless user experience across all devices through thorough testing.
 
-7. **Order Distribution by Category**
+7. **Top 5 Pageviews by Page Title**
 - What do I want to know:
-  - I want to understand the distribution of orders across different product categories.
+  - Ranking of the most visited pages based on their titles.
 - Why do I want to know:
-  - To identify popular product categories and adjust inventory management strategies.
+  - To identify popular content topics and user interests.
 - So what?
-  - Ensure adequate inventory levels for high-demand categories.
-  - Monitor sales trends to anticipate shifts in category popularity.
+  - Analyze top-performing pages to understand audience preferences.
+  - Optimize content strategy to align with successful topics.
+  - Promote related or complementary content to encourage deeper engagement.
+ 
+8. **Top 5 Countries by Total Sessions**
+- What do I want to know:
+  - Geographic distribution of website traffic, highlighting top-performing regions.
+- Why do I want to know:
+  - To guide international marketing efforts and localization strategies.
+- So what?
+  - Tailor content and campaigns to resonate with specific regional audiences.
+  - Explore expansion opportunities in high-traffic regions.
+  - Optimize website performance for users in diverse geographical locations.
+
 
 ## Business Objectives
-- Improve overall profitability by optimizing sales strategies and resource allocation.
-- Increase revenue through targeted marketing efforts and product innovation.
-- Enhance customer satisfaction by tailoring services to specific segments and improving delivery experiences.
-- Optimize inventory management to meet demand and minimize stockouts.
-- Drive growth by capitalizing on opportunities in high-profit product categories and customer segments.
+- Enhance user engagement and interaction depth.
+- Optimize content relevance and effectiveness.
+- Improve website usability and navigation.
+- Increase traffic and audience reach.
+- Inform data-driven marketing strategies.
+- Drive conversions and goal completions.
 
 ## Data Source
-The Sample Data is from [Tableau Superstore Sales](https://public.tableau.com/app/learn/sample-data): Contains information about products, sales, and profits that you can use to identify key areas of improvement within this fictitious company.
-
-## Data Exploration
-
-### YoY Percentage Increase in Total Sales, Total Profit and Total Quantity Sold
-Prior to developing visualizations for these distinct aspects, it was essential to generate several calculated fields to filter the sales data from four years down to only two years, encompassing the current year and the preceding year.
-To do this, I first created Calculated Fields for the following main KPIs: Total Profit, Total Sales, and Total Quantity Sold:
-- Sales Current Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} THEN [Sales] END
-- Sales Previous Year: IF YEAR ( [Order Date] ) = {MAX ( YEAR ( [Order Date] ))} - 1 THEN [Sales] END
-- Sales % Differences: ( SUM ( [Sales Current Year] ) - SUM ( [Sales Previous Year] )) / SUM ( [Sales Previous Year] )
-- Sales YoY%(+): IF [Sales % Differences] >= 0 then [Sales % Differences] END
-- Sales YoY%(-): IF [Sales % Differences] < 0 then [Sales % Differences] END
-
-![Sales Current Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/9940ab14-d836-42f4-8b27-5c374a7071fa)
-
-![Sales Previouse Year](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/7ec2f5ee-4cd4-450a-8f09-d5b9f264c23a)
-
-![Sales % Difference](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/94289f72-75c5-4ad2-a8e7-d9ac58e99438)
-
-![Sales YoY% (+)](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/286b8982-b40c-4c86-82b3-4d8b6d13f4b2)
-
-![Sales YoY% (-)](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/39745e2a-5cce-4ecf-81b4-de857ce030c1)
-
-
-Which allowed me to create this visual:
-
-![Total Sales](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/4f9caac6-a105-491d-bfd4-24dbcddb0c41)
-
-
-
-I then duplicated those calculated fields to create the same for Profits and Quantity:
-
-![Total Profit](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ef1e5500-5965-422d-9c2b-58fb27c10a2e)
-![Total Quantity](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/fd69cc22-fbd2-43bd-bd4e-acaade78bd20)
-
-
-This provides a quick and easy snapshot to see how sales, profit, and quantity sold are doing compared to the previous year.
-
-### Profit by Subcategory
-I created a bar chart to understand the profitability of different product subcategories. By visualizing Profit by Subcategory, we can identify which subcategories contribute the most to overall profit and which ones may be underperforming. This insight helps in strategic decision-making, such as allocating resources towards high-profit subcategories, optimizing marketing strategies, or addressing issues in less profitable areas.
-
-- Use tooltip to highlight detailed information
-<img width="349" alt="Profit by subcategory" src="https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/ae3ed945-862e-4599-8482-813720d28acf">
-
-
-### Sales by Segment
-Creating side-by-side area charts for monthly sales by segment assists sales managers in promptly identifying the top-performing segments and their performance trends relative to others. By highlighting the maximum point for each segment and comparing it to the average values throughout the current year, managers can effectively gauge whether order sizes align with established averages. This aids in assessing deal sizes in the pipeline and ensures that order sizes are trending in line with existing averages, providing valuable insights for decision-making.
-
-- Use tooltip to highlight detailed information
-
-
-![Sales by Segment](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/e01b916d-6ead-41a2-9a37-9ceee9c77adb)
-
-### Order Distribution by Shipping Mode
-This bar chart provides valuable insights into how orders are distributed across different shipping modes, allowing us to understand which shipping methods are most commonly used by customers. By analyzing this distribution, we can optimize our shipping logistics, improve delivery efficiency, and ensure customer satisfaction by offering preferred shipping options.
-
-- Use tooltip to highlight detailed information
-
-
-![Order Distribution by Shipping Mode](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/8c718cbf-eec3-42c5-9baa-36ef6bbdf8e7)
-
-
-### Order Distribution by Category
-This bar chart is valuable for understanding how orders are distributed across different product categories. By analyzing this distribution, we can identify popular product categories and adjust inventory management strategies accordingly. Additionally, it helps us anticipate shifts in category popularity and tailor marketing efforts to promote products in less popular categories, ultimately driving sales and maximizing revenue.
-
-- Use tooltip to highlight detailed information
-
-
-![Order Distribution by Category](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/bb1e859a-076d-484d-87c5-01daf703633c)
-
-
-### Filter
-We use the Country and State filter in this dashboard to provide users with the ability to analyze sales performance and trends at different geographic levels. By filtering data based on country and state, users can narrow down their focus to specific regions of interest. This enables them to gain insights into regional sales patterns, identify areas of high or low performance, and tailor strategies to specific geographic markets. 
-
-
-![Filter](https://github.com/fangoaish/Tableau__Superstore_Sales_Performance/assets/51399519/d56a784f-06ac-4a1e-8e91-defaa655708a)
+The Sample Data is from Web Marketing_Migrated Data: Contains information about Channel Grouping,	Country, Date, Device Category,	Page Title, Source Medium, Bounces, Exits, Page Load Time, Pageviews Sessions, Time on Page, Unique Pageviews
 
 
 ## Exploratory Data Analysis
-1. **Total Profit, Sales, and Quantity:**
-    - Insight: Our sales dashboard provides a comprehensive view of Total Profit, Sales, and Quantity, allowing us to monitor financial health and performance trends over time.
-    - Recommendation: Analyze factors driving changes in profit, sales, and quantity. Identify areas for cost reduction or revenue enhancement to improve profitability.
 
-2. **Profit by Subcategory:**
-    - Insight: The Profit by Subcategory chart reveals which product categories contribute the most to overall profit.
-    - Recommendation: Allocate resources to high-profit subcategories, optimize marketing strategies, and address underperforming areas to maximize profitability.
+### Channel Performance Analysis:
+1. **Direct**: With 124,320 total sessions, Direct channel contributes significantly to website traffic. However, the bounce rate of 24.45% indicates a substantial portion of users exiting without further interaction, which could signal issues with landing page effectiveness or content relevance.
+2. **Display**: Despite lower total sessions (3,714), Display channel exhibits a similar bounce rate (26.76%) to Direct, suggesting potential optimization opportunities to improve user retention.
+3. **Organic Search**: Organic Search drives the highest number of total sessions (148,407) among the analyzed channels, with a relatively lower bounce rate (17.94%). This indicates effective targeting or relevance of organic search results, contributing to better user engagement.
+4. **Paid Search**: the Paid Search Channel faces challenges with a higher 22.82% bounce rate across 31,536 sessions, predominantly from desktop. Despite page title 496 attracting most pageviews, bounce rates suggest issues with landing page relevance. 
+5. **Paid Social**: Paid social drives significant sessions, but with a high bounce rate of 25.46%. Users spend about 79 seconds on the page, mainly on desktop. Page Title 460 garners the most views, primarily from the U.S.
+6. **Referral**: The Referral Channel shows promising engagement with a low bounce rate of 17.38% across 37,467 sessions, mostly from desktop. Page title 460 drives the most pageviews, indicating its effectiveness. To leverage this, focus on nurturing relationships with top referring sources and replicate successful content strategies.
 
-3. **Sales by Segment:**
-    - Insight: Side-by-side area charts for monthly sales by segment highlight top-performing segments and their performance trends.
-    - Recommendation: Compare order sizes with established averages to assess deal sizes in the pipeline and ensure alignment with expectations.
+Recommendations:
+Refine audience targeting to attract qualified leads. Optimize ad content to encourage interaction. Consider retargeting to re-engage bounced users for improved campaign performance.
 
-4. **Order Distribution by Shipping Mode and Category:**
-    - Insight: These charts offer insights into order distribution across shipping modes and product categories.
-    - Recommendation: Optimize shipping logistics, improve delivery efficiency, and tailor marketing efforts based on popular product categories to drive sales and maximize revenue.
+## User Behavior Analysis:
+1. **Device Preference**: Across all channels, most sessions originate from desktop devices, suggesting the importance of optimizing website experiences for desktop users. However, mobile and tablet optimization should not be neglected, especially considering the growing prevalence of mobile browsing.
+2. **Page Engagement**: Page titles "1783" and "495" consistently attract the most pageviews across multiple channels, indicating content popularity or relevance. Analyzing the content of these pages can provide insights into audience interests and preferences.
+3. **Geographical Distribution**: The top sessions originate from the U.S and India across multiple channels, highlighting the importance of targeting and tailoring content for these regions to maximize engagement and conversion opportunities.
 
-5. **Geographic Filter:**
-    - Insight: The Country and State filter enables analysis of sales performance at different geographic levels.
-    - Recommendation: Tailor strategies to specific geographic markets, identify regional sales patterns, and focus on areas of high performance for targeted growth initiatives.
+
+### Recommendations:
+1. **Direct Channel Optimization**:
+- Evaluate landing pages and content relevance to reduce bounce rates.
+- Implement A/B testing for landing page elements to improve user retention.
+- Enhance user experience on desktop devices while ensuring mobile responsiveness.
+
+2. **Display Channel Improvement**:
+- Refine targeting strategies to attract more qualified traffic.
+- Optimize ad creatives and landing pages for better engagement.
+- Explore retargeting campaigns to re-engage bounced users.
+
+3. **Organic Search Maximization**:
+- Continue to focus on SEO strategies to maintain high visibility in organic search results.
+- Analyze successful keywords and optimize content accordingly.
+- Leverage geographical insights to tailor content for top-performing regions.
+
+4. **Paid Search Refinement**:
+- Review targeting criteria and ad relevance to improve campaign effectiveness.
+- Adjust bidding strategies to optimize ROI and reduce bounce rates.
+- Test different ad creatives and landing page variations to enhance user experience and engagement.
+
+5. **Paid Social**:
+- Refine audience targeting to attract qualified leads.
+- Optimize ad content to encourage interaction.
+- Consider retargeting to re-engage bounced users for improved campaign performance.
+
+7. **Cross-Channel Optimization**:
+- Implement consistent branding and messaging across all channels.
+- Utilize data from high-performing channels to inform strategies for other channels.
+- Monitor and analyze user behavior regularly to identify emerging trends and opportunities for improvement.
+
 
 ## Conclusion 
 The Sales Performance Dashboard provides valuable insights into the company's sales performance across various metrics and geographic regions. By leveraging these insights, we can make informed decisions to optimize revenue, enhance profitability, and improve customer satisfaction. 
