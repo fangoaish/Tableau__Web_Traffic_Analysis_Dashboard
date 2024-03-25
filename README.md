@@ -97,7 +97,17 @@ The [Web Traffic Analysis Dashboard](https://public.tableau.com/app/profile/fang
 - Drive conversions and goal completions.
 
 ## Data Source
-The Sample Data is from Web Marketing_Migrated Data: Contains information about Channel Grouping,	Country, Date, Device Category,	Page Title, Source Medium, Bounces, Exits, Page Load Time, Pageviews Sessions, Time on Page, Unique Pageviews
+The Sample Data is from Web Marketing_Migrated Data and contains information about 
+- Channel Grouping
+- Country, Date
+- Device Category
+- Page Title
+- Source Medium
+- Bounces, Exits
+- Page Load Time
+- Pageviews Sessions
+- Time on Page
+- Unique Pageviews
 
 
 ## Exploratory Data Analysis
@@ -154,4 +164,10 @@ The Sample Data is from Web Marketing_Migrated Data: Contains information about 
 
 
 ## Conclusion 
-The Sales Performance Dashboard provides valuable insights into the company's sales performance across various metrics and geographic regions. By leveraging these insights, we can make informed decisions to optimize revenue, enhance profitability, and improve customer satisfaction. 
+The Web Traffic Analysis Dashboard serves as a powerful tool for dissecting website performance and user behavior. By meticulously tracking various metrics, stakeholders gain insights into audience interactions, content effectiveness, and the impact of marketing campaigns. This comprehensive overview equips decision-makers with actionable data to refine strategies, optimize user experiences, and ultimately drive business growth.
+
+Across different channels, there are distinct patterns and areas for improvement. Direct and Display channels exhibit potential for enhancing user retention through improved landing pages and content relevance. Meanwhile, Organic Search demonstrates effective targeting and engagement strategies, while Paid Search and Paid Social channels face challenges with higher bounce rates, suggesting a need for refining targeting and ad relevance.
+
+The Referral Channel stands out with promising engagement metrics, presenting opportunities for nurturing relationships with top referring sources and replicating successful content strategies. Recommendations encompass optimizing landing pages, refining targeting strategies, and tailoring content for specific regions and devices.
+
+Moving forward, cross-channel optimization and continuous monitoring of user behavior will be crucial for maintaining and improving website performance. By implementing these recommendations and staying agile in response to emerging trends, businesses can effectively leverage their web traffic to drive conversions and achieve their objectives.
